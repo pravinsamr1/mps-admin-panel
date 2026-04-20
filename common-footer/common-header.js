@@ -6,7 +6,7 @@
                     <!-- Brand Logo Light -->
                     <a href="index.html" class="logo-light">
                         <img src="assets/images/logo-light.png" alt="logo" class="logo-lg" height="50" width="200px">
-                        <img src="assets/images/logo-sm.png" alt="small logo" class="logo-sm" height="28">
+                        <img src="assets/images/favicon.ico" alt="small logo" class="logo-sm" height="28">
                     </a>
 
                     <!-- Brand Logo Dark -->
@@ -161,8 +161,14 @@
                                     </a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="address.html" class="menu-link">
+                                    <a href="footer-card.html" class="menu-link">
                                         <span class="menu-text">Footer Card</span>
+                                    </a>
+                                </li>
+
+                                <li class="menu-item">
+                                    <a href="error-page.html" class="menu-link">
+                                        <span class="menu-text">404 Page</span>
                                     </a>
                                 </li>
                                 
@@ -190,6 +196,112 @@
                             <span class="menu-text">About MPS</span>
                         </a>
                     </li>
+                    <li class="menu-item">
+                        <a href="community-resource-database.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Community Database</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#menuBecome" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Become a Member</span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="menuBecome">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="become-member-sectionA.html" class="menu-link">
+                                        <span class="menu-text"> Section A</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="become-member-sectionB.html" class="menu-link">
+                                        <span class="menu-text">Section B</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="become-member-sectionC.html" class="menu-link">
+                                        <span class="menu-text">Section C</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="menu-item">
+                        <a href="#menuBecomee" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">News and Events</span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="menuBecomee">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="all-news-events.html" class="menu-link">
+                                        <span class="menu-text"> All News Events</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="news-events-add.html" class="menu-link">
+                                        <span class="menu-text">Add News Events</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="new-diagnosis.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">New Diagnosis</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="we-care.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">We Care</span>
+                        </a>
+                    </li>
+
+
+                    <li class="menu-item">
+                        <a href="educational-center.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Education Center</span>
+                        </a>
+                    </li>
+
+
+                    
+
+                    <li class="menu-item">
+                        <a href="#menuBecomeee" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Clinical Trails</span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="menuBecomeee">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="clinical-trials-sectionA.html" class="menu-link">
+                                        <span class="menu-text"> Section A</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="clinical-trials-sectionB.html" class="menu-link">
+                                        <span class="menu-text">Section B</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+
                 </ul>
             </div>            </div>
             </div>

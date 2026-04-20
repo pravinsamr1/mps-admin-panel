@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light" data-menu-color="brand" data-topbar-color="light">
-    <head>
+     <head>
         <meta charset="utf-8" />
         <title>MPS Admin Panel</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
         <div class="layout-wrapper">
 
             <!-- ========== Left Sidebar ========== -->
-           <div id="header"></div>
+            <div id="header"></div>
 
             
       
@@ -300,71 +300,87 @@
                         <div class="py-3 py-lg-4">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <h4 class="page-title mb-0">Common / Social Media Links</h4>
+                                    <h3 class="page-title mb-0">Add News and Events</h3>
                                 </div>
                             </div>
+
                         </div>
                         <!-- end page title -->
 
-                        <!-- Form row -->
                         <div class="row">
-                           
-                            <div class="col-xl-12">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="name" class="form-control" id="floatingemailInput" placeholder="Enter Name">
+                                                        <label for="floatingemailInput"> TItle</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="date" class="form-control" id="floatingemailInput" placeholder="Enter Name">
+                                                        <label for="floatingemailInput"> Date</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                            <div class="col-12">
+                                <h4>Short Description</h4>
                                 <div class="card">
                                     <div class="card-body">
                                        
-                                        <form>
+                                        <div id="snow-editor" style="height: 300px;">
                                             
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3">
-                                                        <input type="name" class="form-control" id="floatingemailInput" placeholder="Enter Email address" value="We are Here to Help">
-                                                        <label for="floatingemailInput"> FaceBook URL</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3">
-                                                        <input type="name" class="form-control" id="floatingemailInput" placeholder="Enter Email address" value="We are Here to Help">
-                                                        <label for="floatingemailInput">X URL</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                              <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3">
-                                                        <input type="name" class="form-control" id="floatingemailInput" placeholder="Enter Email address" value="Something">
-                                                        <label for="floatingemailInput">Linkedin URL</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-floating mb-3">
-                                                        <input type="text" class="form-control" id="floatingemailInput" placeholder="Enter Email address" value="mps.com">
-                                                        <label for="floatingemailInput">Instagram URL</label>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                          
-                                            <div style="margin-top: 15px;">
-                                                <button type="submit" class="btn btn-primary w-md">Save</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!-- end card body -->
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <!-- end col -->
+                                        </div> <!-- end Snow-editor-->
+                                    </div> <!-- end card-body-->
+                                </div> <!-- end card-->
+                            </div><!-- end col -->
                         </div>
-                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-6" style="border: 1px solid #dbdbdb;padding: 10px 30px;margin-bottom: 20px;">
+                               <div class="brd">
+                               <h4 style="margin-top: 10px; text-align: center;"> Upload News Thumbnail image<br><span style="color:#9B0000; font-size: 13px; text-align: center;">(size:1000px X 1000px) </span></h4>
+                               <div class="upload__box">
+                               <div class="upload__btn-box">
+                                   <label class="upload__btn">
+                                      <p>Upload images</p>
+                                   <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+                                  </label>
+                               </div>
+                               <div class="upload__img-wrap"></div>
+                              </div>
+                            </div>
+                            </div>
+
+                            <div class="col-6" style="border: 1px solid #dbdbdb;padding: 10px 30px;margin-bottom: 20px;">
+                               <div class="brd">
+                               <h4 style="margin-top: 10px; text-align: center;"> Upload News Actual image<br><span style="color:#9B0000; font-size: 13px; text-align: center;">(size:1280px X 800px) </span></h4>
+                               <div class="upload__box">
+                               <div class="upload__btn-box">
+                                   <label class="upload__btn">
+                                      <p>Upload images</p>
+                                   <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+                                  </label>
+                               </div>
+                               <div class="upload__img-wrap"></div>
+                              </div>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1" style="margin-right:auto; margin-left:auto;">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div><!-- end col -->
+
+                        <!-- end row -->  
                         
                     </div> <!-- container -->
 
                 </div> <!-- content -->
 
                 <!-- Footer Start -->
-               <footer class="footer">
+                <footer class="footer">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6">
@@ -379,6 +395,7 @@
                 </div>
             </footer>
                 <!-- end Footer -->
+
             </div>
             <!-- End Page content -->
 
@@ -386,11 +403,19 @@
         </div>
         <!-- END wrapper -->
 
-        <!-- App js -->
+        <!-- Vendor js -->
+         <!-- App js -->
+          <script src="common-footer/common-header.js"></script>
 
-        <script src="common-footer/common-header.js"></script>
-        <script src="assets/js/vendor.min.js"></script>
-        <script src="assets/js/app.js"></script>
-        
+         <script src="assets/js/vendor.min.js"></script>
+         <script src="assets/js/app.js"></script>
+         
+         <!-- Plugins js -->
+         <script src="assets/libs/quill/quill.min.js"></script>
+         
+         <!-- Demo js-->
+         <script src="assets/js/pages/form-quilljs.js"></script>
+         
+      
     </body>
 </html>
