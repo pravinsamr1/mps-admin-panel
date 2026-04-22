@@ -176,11 +176,14 @@
                                         <span class="menu-text">Footer Card</span>
                                     </a>
                                 </li>
+<<<<<<< HEAD
                                 <li class="menu-item">
                                     <a href="footer.html" class="menu-link">
                                         <span class="menu-text">Footer</span>
                                     </a>
                                 </li>
+=======
+>>>>>>> 3a097993fdc5c48d665a8676645919995fcc3d13
 
                                 <li class="menu-item">
                                     <a href="error-page.html" class="menu-link">
@@ -387,6 +390,7 @@
                             </ul>
                         </div>
                     </li>
+<<<<<<< HEAD
 
 
 
@@ -409,12 +413,45 @@
                                     </a>
                                 </li>
                                 
+=======
+                    <li class="menu-item">
+                        <a href="community-resource-database.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Community Database</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="#menuBecome" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Become a Member</span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="menuBecome">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="become-member-sectionA.html" class="menu-link">
+                                        <span class="menu-text"> Section A</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="become-member-sectionB.html" class="menu-link">
+                                        <span class="menu-text">Section B</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="become-member-sectionC.html" class="menu-link">
+                                        <span class="menu-text">Section C</span>
+                                    </a>
+                                </li>
+>>>>>>> 3a097993fdc5c48d665a8676645919995fcc3d13
                             </ul>
                         </div>
                     </li>
 
 
                     <li class="menu-item">
+<<<<<<< HEAD
                         <a href="#menuBecomeerrr" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
                             <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
                             <span class="menu-text">Education Center</span>
@@ -433,10 +470,53 @@
                                     </a>
                                 </li>
                                 
+=======
+                        <a href="#menuBecomee" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">News and Events</span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="menuBecomee">
+                            <ul class="sub-menu">
+                                <li class="menu-item">
+                                    <a href="all-news-events.html" class="menu-link">
+                                        <span class="menu-text"> All News Events</span>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="news-events-add.html" class="menu-link">
+                                        <span class="menu-text">Add News Events</span>
+                                    </a>
+                                </li>
+>>>>>>> 3a097993fdc5c48d665a8676645919995fcc3d13
                             </ul>
                         </div>
                     </li>
 
+<<<<<<< HEAD
+=======
+                    <li class="menu-item">
+                        <a href="new-diagnosis.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">New Diagnosis</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a href="we-care.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">We Care</span>
+                        </a>
+                    </li>
+
+
+                    <li class="menu-item">
+                        <a href="educational-center.html" class="menu-link waves-effect waves-light">
+                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+                            <span class="menu-text">Education Center</span>
+                        </a>
+                    </li>
+>>>>>>> 3a097993fdc5c48d665a8676645919995fcc3d13
 
 
                     
@@ -449,11 +529,14 @@
                         </a>
                         <div class="collapse" id="menuBecomeee">
                             <ul class="sub-menu">
+<<<<<<< HEAD
                             <li class="menu-item">
                 <a href="home-header.html" class="menu-link">
                     <span class="menu-text">Header</span>
                 </a>
             </li>
+=======
+>>>>>>> 3a097993fdc5c48d665a8676645919995fcc3d13
                                 <li class="menu-item">
                                     <a href="clinical-trials-sectionA.html" class="menu-link">
                                         <span class="menu-text"> Section A</span>
@@ -469,6 +552,7 @@
                     </li>
 
 
+<<<<<<< HEAD
                     <li class="menu-item">
                         <a href="#menuBecomeeee" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
                             <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
@@ -503,6 +587,8 @@
                     </li>
 
 
+=======
+>>>>>>> 3a097993fdc5c48d665a8676645919995fcc3d13
 
                 </ul>
             </div>            </div>
