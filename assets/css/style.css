@@ -19195,3 +19195,8 @@ span.flatpickr-weekday,
 .waves-block {
   display: block;
 }
+
+
+.menu-width{
+  width: 260px;
+}

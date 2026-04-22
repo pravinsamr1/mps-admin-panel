@@ -1,6 +1,6 @@
  document.addEventListener("DOMContentLoaded", function () {
   const header = `
-     <div class="main-menu">
+     <div class="main-menu menu-width">
                 <!-- Brand Logo -->
                 <div class="logo-box">
                     <!-- Brand Logo Light -->
@@ -39,7 +39,6 @@
     
     <div class="collapse" id="menuHome">
         <ul class="sub-menu">
-            
             <li class="menu-item">
                 <a href="banner.html" class="menu-link">
                     <span class="menu-text">Banner</span>
@@ -75,6 +74,12 @@
     
     <div class="collapse" id="menuAbout">
         <ul class="sub-menu">
+
+        <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
             
             <li class="menu-item">
                 <a href="about-sectionA.html" class="menu-link">
@@ -112,6 +117,12 @@
     
     <div class="collapse" id="menuteam">
         <ul class="sub-menu">
+
+        <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
             
             <li class="menu-item">
                 <a href="board-of-directors.html" class="menu-link">
@@ -181,32 +192,115 @@
                         </div>
                     </li>
 
+
+
                     <li class="menu-item">
-                        <a href="remembering-our-childrens.html" class="menu-link waves-effect waves-light">
-                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
-                            <span class="menu-text">Remembering Childrens</span>
-                            <span class="menu-arrow"></span>
-                        </a>
-                        
-                    </li>
+    <a href="#menuteamm" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+        <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+        <span class="menu-text"> Remembering Children</span>
+        <span class="menu-arrow"></span>
+    </a>
+    
+    <div class="collapse" id="menuteamm">
+        <ul class="sub-menu">
+
+        <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="remembering-our-childrens.html" class="menu-link">
+                    <span class="menu-text">Remembering Childrens</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
+
+
+                    
+
                     <li class="menu-item">
-                        <a href="our-stories.html" class="menu-link waves-effect waves-light">
-                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
-                            <span class="menu-text">Our Stories</span>
-                        </a>
-                    </li>
+    <a href="#menuteammm" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+        <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+        <span class="menu-text"> Our Stories</span>
+        <span class="menu-arrow"></span>
+    </a>
+    
+    <div class="collapse" id="menuteammm">
+        <ul class="sub-menu">
+
+        <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="our-stories.html" class="menu-link">
+                    <span class="menu-text">Our Stories</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
+
+
+                    
+
+
                     <li class="menu-item">
-                        <a href="about-mps.html" class="menu-link waves-effect waves-light">
-                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
-                            <span class="menu-text">About MPS</span>
-                        </a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="community-resource-database.html" class="menu-link waves-effect waves-light">
-                            <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
-                            <span class="menu-text">Community Database</span>
-                        </a>
-                    </li>
+    <a href="#menuteammmm" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+        <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+        <span class="menu-text"> About MPS</span>
+        <span class="menu-arrow"></span>
+    </a>
+    
+    <div class="collapse" id="menuteammmm">
+        <ul class="sub-menu">
+
+        <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="about-mps.html" class="menu-link">
+                    <span class="menu-text">About MPS</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
+
+
+                     <li class="menu-item">
+    <a href="#menuteammmmm" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
+        <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
+        <span class="menu-text"> Community Database</span>
+        <span class="menu-arrow"></span>
+    </a>
+    
+    <div class="collapse" id="menuteammmmm">
+        <ul class="sub-menu">
+
+        <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="community-resource-database.html" class="menu-link">
+                    <span class="menu-text">Community Database</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</li>
 
                     <li class="menu-item">
                         <a href="#menuBecome" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
@@ -216,6 +310,12 @@
                         </a>
                         <div class="collapse" id="menuBecome">
                             <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+
                                 <li class="menu-item">
                                     <a href="become-member-sectionA.html" class="menu-link">
                                         <span class="menu-text"> Section A</span>
@@ -244,6 +344,11 @@
                         </a>
                         <div class="collapse" id="menuBecomee">
                             <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
                                 <li class="menu-item">
                                     <a href="all-news-events.html" class="menu-link">
                                         <span class="menu-text"> All News Events</span>
@@ -258,27 +363,80 @@
                         </div>
                     </li>
 
+
+
                     <li class="menu-item">
-                        <a href="new-diagnosis.html" class="menu-link waves-effect waves-light">
+                        <a href="#menuBecomeer" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
                             <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
                             <span class="menu-text">New Diagnosis</span>
+                            <span class="menu-arrow"></span>
                         </a>
+                        <div class="collapse" id="menuBecomeer">
+                            <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+                                <li class="menu-item">
+                                    <a href="new-diagnosis.html" class="menu-link">
+                                        <span class="menu-text">New Diagnosis</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
                     </li>
 
-                    <li class="menu-item">
-                        <a href="we-care.html" class="menu-link waves-effect waves-light">
+
+
+                     <li class="menu-item">
+                        <a href="#menuBecomeerr" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
                             <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
                             <span class="menu-text">We Care</span>
+                            <span class="menu-arrow"></span>
                         </a>
+                        <div class="collapse" id="menuBecomeerr">
+                            <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+                                <li class="menu-item">
+                                    <a href="we-care.html" class="menu-link">
+                                        <span class="menu-text">We Care</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
                     </li>
 
 
                     <li class="menu-item">
-                        <a href="educational-center.html" class="menu-link waves-effect waves-light">
+                        <a href="#menuBecomeerrr" data-bs-toggle="collapse" class="menu-link waves-effect waves-light">
                             <span class="menu-icon"><i class="mdi mdi-file-cloud-outline"></i></span>
                             <span class="menu-text">Education Center</span>
+                            <span class="menu-arrow"></span>
                         </a>
+                        <div class="collapse" id="menuBecomeerrr">
+                            <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
+                                <li class="menu-item">
+                                    <a href="educational-center.html" class="menu-link">
+                                        <span class="menu-text">Education Center</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
                     </li>
+
 
 
                     
@@ -291,6 +449,11 @@
                         </a>
                         <div class="collapse" id="menuBecomeee">
                             <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
                                 <li class="menu-item">
                                     <a href="clinical-trials-sectionA.html" class="menu-link">
                                         <span class="menu-text"> Section A</span>
@@ -314,6 +477,11 @@
                         </a>
                         <div class="collapse" id="menuBecomeeee">
                             <ul class="sub-menu">
+                            <li class="menu-item">
+                <a href="home-header.html" class="menu-link">
+                    <span class="menu-text">Header</span>
+                </a>
+            </li>
                                 <li class="menu-item">
                                     <a href="family-support.html" class="menu-link">
                                         <span class="menu-text"> Family Support</span>

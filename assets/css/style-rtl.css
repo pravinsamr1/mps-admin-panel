@@ -8,7 +8,7 @@ File: Main Css File
 */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
 :root {
-  --bs-sidebar-width: 240px;
+  --bs-sidebar-width: 300px;
   --bs-sidebar-width-sm: 80px;
   --bs-topbar-height: 70px;
   --bs-horizontal-menu-height: 55px;
